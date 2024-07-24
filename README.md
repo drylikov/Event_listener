@@ -6,13 +6,13 @@ old IE.
 ## Install
 
 ```
-npm install event-listener
+npm install event_listener
 ```
 
 ## Usage
 
 ```javascript
-var listen = require('event-listener')
+var listen = require('event_listener')
 
 // Returns an object with a .remove() method
 var scrollListener = listen(window, 'scroll', function(e) {
