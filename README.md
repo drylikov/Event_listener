@@ -1,6 +1,4 @@
-# event-listener
-
-[![Build Status](https://travis-ci.org/insin/event-listener.svg?branch=master)](https://travis-ci.org/insin/event-listener)
+# Event listener
 
 Simple function for `addEventListener()` vs `addEvent()` if you need to support
 old IE.
@@ -28,5 +26,3 @@ scrollListener.remove()
 // Multiple event names may be provided
 var dimensionListener = listen(window, 'resize orientationchange', fn)
 ```
-
-## MIT Licensed
